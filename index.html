@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> شركة طيبة الخير للمزدادت العقارية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Saira:wght@800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+           
+            margin-bottom: -20px;
+            font-family: 'Saira', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: white;
+            text-shadow: 0 0 1px transparent, 0 1px 2px rgb(0 0 0 / 50%);
+        }
+
+        body >img {
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        section {
+            display: grid;
+            place-items: center;
+            position: absolute;
+            inset: 0;
+            overflow-y: scroll;
+        }
+        
+        section div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section > div {
+            padding: 100px 10px;
+        }
+
+        section div img {
+            margin-bottom: -60px;
+            width: 170px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+           
+        }
+
+       .link .me{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            border: 1.5px solid white;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            gap: 20px;
+            align-items: center;
+            border-radius: 4px;
+            transition-duration: 200ms;
+        }
+
+        .link a:hover {
+            background: white;
+            color: #0f172a;
+        }
+
+       .link a i {
+            font-size: 1.3em;
+        }
+
+
+ .social-icons {
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row !important;
+    }
+
+.social-icons i {
+  font-size: 24px;
+  margin: 5px;
+  color: #333; 
+  border-radius: 50%;
+  background-color: #f5f5f5; 
+  padding: 10px; 
+  transition: background-color 0.3s ease; 
+}
+
+.social-icons i:hover {
+  background-color: #ccc; 
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.fire {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('mazad.jpg);
+  background-size: cover;
+}
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  border-radius: 50%;
+  margin: 0 5px;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.company-name {
+  font-size: 14px;
+}
+  footer{
+        background-color: #343434;
+        padding-top: 50px;
+    }
+    .container{
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-content{
+        width: 33.3%;
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-content p{
+        width:190px;
+        margin: auto;
+        padding: 7px;
+    }
+    .footer-content ul{
+        text-align: center;
+    }
+    .list{
+        padding: 0;
+    }
+    .list li{
+        width: auto;
+        text-align: center;
+        list-style-type:none;
+        padding: 7px;
+        position: relative;
+    }
+    .list li::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: #f18930;
+        transition-duration: .5s;
+    }
+    .list li:hover::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+    .social-icons i{
+        color: white;
+        font-size: 25px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: #f18930;
+    }
+    .social-icons i:hover{
+        color: #f18930;
+    }
+    .bottom-bar{
+        background: #f18930;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    .bottom-bar p{
+        color: #343434;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+    }
+    </style>
+</head>
+
+<body>
+    <img src="bg.jpg" alt="bg" />
+    <section>
+        <div>
+            <img src="logo2.png" alt="dp" />
+            <h2>شركة طيبة الخير للمزدات العقارية</h2>
+        
+               
+            <div>
+
+              <div class="social-icons">
+                   <a href="https://twitter.com/taibet_alkhair/status/1714203615919845718">
+                    <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.snapchat.com/add/taibetalkhair?share_id=DVjpkIdFIvE&locale=ar-SA">  
+                    <i class="fab fa-snapchat"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@taibetalkhair">
+                     <i class="fab fa-tiktok"></i>
+                    </a>
+                   
+                </div>    
+                
+                <div class="title-container">
+                <h2 class="section-title">المزادات الحالية</h2>
+                <div class="fire"></div>
+                </div>
+                  <div class="link">
+                <a href="https://x.com/taibet_alkhair/status/1719654220817678617?s=20" class="me">
+                    <i class="fa-brands fa-deezer"></i>
+                    <p>مزاد روابي مكة</p>
+                </a >
+                   <a href="" class="me">
+                    <i class="fa-brands fa-deezer"></i>
+                    <p>LinkedIn</p>
+                </a >
+                   <a href="" class="me">
+                    <i class="fa-brands fa-deezer"></i>
+                    <p>LinkedIn</p>
+                </a >
+                   <a href="" class="me">
+                    <i class="fa-brands fa-deezer"></i>
+                    <p>LinkedIn</p>
+                </a >
+                   <a href="" class="me">
+                    <i class="fa-brands fa-deezer"></i>
+                    <p>LinkedIn</p>
+                </a >
+                <!--المزدادت المنتهية-->
+                 <h2 class="section-title"> المزدادت المنتهية</h2>
+                <div class="fire"></div>
+                </div>
+                  <div class="link">
+                <a href="" class="me">
+                    <i class="fa-brands fa-deezer"></i>
+                    <p>مزاد حسن الجوار</p>
+                </a >
+                   <a href="" class="me">
+                    <i class="fa-brands fa-deezer"></i>
+                    <p>قنادق معاد</p>
+                </a >
+               
+                 <div>
+            </div>
+        </div>
+           <footer>
+        <div class="container">
+                    <div class="footer-content">
+                    <h3 style="color:#E9E9E9 ;">Follow Us</h3>
+                    <ul class="social-icons">
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                    </div>
+                </div>
+           
+
+          
+        <div class="bottom-bar">
+            <p style="color:#E9E9E9 ;">&copy; 2023 your company . شركة طيبة الخير للمزدادت</p>
+        </div>
+    </footer>
+
+        
+    </section>
+</body>
+
+</html>
